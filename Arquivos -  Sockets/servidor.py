@@ -1,9 +1,9 @@
 # server.py
 import socket
 import time
-# create a socket object
+# create a socket objectne name
 serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# get local machine name
+# get local machi
 host = socket.gethostname()
 port = 9999
 # bind to the port
