@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+    background:linear-gradient(45deg, lightseagreen, rgb(20, 102, 98));
+}
+
+.bb{
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: rgb(1, 155, 147);
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.bodys{
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button:hover{
+    transform: scale(1.05,1.05);
+    transform: scale(1.1,1.1);
+    background-color: rgb(219, 219, 219);
+}
+
+nav{
+    margin-bottom: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 102, 97);
+    width: 100vw;
+    height: 90px
+}
+
+.userdata{
+    margin-bottom: 190px;
+}
+
+.container2{
+    background: white;
+    min-width: 28rem;
+    min-height: 400px;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px rgb(0,0,0,0.5);
+    margin-bottom:85px;
+}
+
+main h2{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-ref{
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 120%;
+    height: 35px;
+    margin-bottom: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+input{
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+
+h3{
+    color: white;
+    margin-bottom: 25px;
+}
+
+.data{
+    color: rgb(109, 109, 109);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 500px;
+}

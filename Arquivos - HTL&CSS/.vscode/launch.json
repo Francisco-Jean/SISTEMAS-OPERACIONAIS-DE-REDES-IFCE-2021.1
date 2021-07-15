@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "c:\\Users\\jeans\\Documents\\Arquivos - P7\\SISTEMAS-OPERACIONAIS-DE-REDES-IFCE-2021.1\\Arquivos - HTL&CSS\\index.html"
+        }
+    ]
+}
